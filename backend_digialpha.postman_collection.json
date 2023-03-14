@@ -1,0 +1,153 @@
+{
+  "info": {
+    "_postman_id": "221b6721-fe21-48d1-98bc-fe715138d523",
+    "name": "backend_digialpha",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "RegisterUser",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "firstName": "Sushant",
+          "lastName": "Tikhe",
+          "emailId": "tikhesushant11@gmmail.com",
+          "phoneNumber": 8806087865,
+          "_id": "640ff70e6c0fad8b7a5d1e43",
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "name": "GetUserById",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "_id": "640ff70e6c0fad8b7a5d1e43",
+          "firstName": "Sushant",
+          "lastName": "Tikhe",
+          "emailId": "tikhesushant11@gmmail.com",
+          "phoneNumber": 8806087865,
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "name": "ListAllUsers",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "_id": "640f393f39e56d3ce7295b0a",
+          "firstName": "Aarti",
+          "lastName": "Tikhe",
+          "emailId": "tikheaarti34@gmmail.com",
+          "phoneNumber": 6543476873,
+          "__v": 0
+        },
+        {
+          "_id": "640f44273d55db0f0660d1a3",
+          "firstName": "Pooja",
+          "lastName": "Tikhe",
+          "emailId": "tikhepooja11@gmmail.com",
+          "phoneNumber": 9356456836,
+          "__v": 0
+        },
+        {
+          "_id": "640ff70e6c0fad8b7a5d1e43",
+          "firstName": "Sushant",
+          "lastName": "Tikhe",
+          "emailId": "tikhesushant11@gmmail.com",
+          "phoneNumber": 8806087865,
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "name": "ListUsersWithFilters",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "_id": "640f393f39e56d3ce7295b0a",
+          "firstName": "Aarti",
+          "lastName": "Tikhe",
+          "emailId": "tikheaarti34@gmmail.com",
+          "phoneNumber": 6543476873,
+          "__v": 0
+        },
+        {
+          "_id": "640f44273d55db0f0660d1a3",
+          "firstName": "Pooja",
+          "lastName": "Tikhe",
+          "emailId": "tikhepooja11@gmmail.com",
+          "phoneNumber": 9356456836,
+          "__v": 0
+        },
+        {
+          "_id": "640ff70e6c0fad8b7a5d1e43",
+          "firstName": "Sushant",
+          "lastName": "Tikhe",
+          "emailId": "tikhesushant11@gmmail.com",
+          "phoneNumber": 8806087865,
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "name": "UpdateUser",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "_id": "640f44273d55db0f0660d1a3",
+          "firstName": "Puja",
+          "lastName": "Tikhe",
+          "emailId": "tikhepooja11@gmmail.com",
+          "phoneNumber": 9356456836,
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "name": "DeleteUser",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "_id": "640f44273d55db0f0660d1a3",
+          "firstName": "Puja",
+          "lastName": "Tikhe",
+          "emailId": "tikhepooja11@gmmail.com",
+          "phoneNumber": 9356456836,
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "name": "API Healthcheck",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": {
+        "message": "Routers are working fine"
+      }
+    }
+  ]
+}
